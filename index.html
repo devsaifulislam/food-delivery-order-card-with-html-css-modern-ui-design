@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Delivery Order Card with HTML &amp; CSS 🍔 | Modern UI Design</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="order-card">
+  <div class="order-header">
+    <div>
+      <p class="eyebrow">ORDER TRACKING</p>
+      <h1>Order #FD2048</h1>
+    </div>
+
+    <span class="order-status">On the way</span>
+  </div>
+
+  <div class="restaurant-info">
+    <div class="restaurant-logo">🍔</div>
+
+    <div>
+      <h2>Urban Bites</h2>
+      <p>American · 4.8 ★ · 25–35 min</p>
+    </div>
+
+    <button type="button" aria-label="Call restaurant">☎</button>
+  </div>
+
+  <div class="delivery-progress">
+    <div class="progress-line">
+      <span></span>
+    </div>
+
+    <div class="progress-step completed">
+      <span>✓</span>
+      <small>Confirmed</small>
+    </div>
+
+    <div class="progress-step completed">
+      <span>✓</span>
+      <small>Preparing</small>
+    </div>
+
+    <div class="progress-step active">
+      <span>●</span>
+      <small>On the way</small>
+    </div>
+
+    <div class="progress-step">
+      <span>○</span>
+      <small>Delivered</small>
+    </div>
+  </div>
+
+  <div class="delivery-banner">
+    <div class="delivery-icon">🛵</div>
+
+    <div>
+      <strong>Your food is on the way</strong>
+      <p>Estimated delivery by 7:35 PM</p>
+    </div>
+  </div>
+
+  <div class="order-items">
+    <div class="order-item">
+      <div class="item-quantity">1x</div>
+      <div class="item-info">
+        <strong>Classic Beef Burger</strong>
+        <span>Cheese, lettuce, tomato</span>
+      </div>
+      <strong>$8.50</strong>
+    </div>
+
+    <div class="order-item">
+      <div class="item-quantity">1x</div>
+      <div class="item-info">
+        <strong>French Fries</strong>
+        <span>Regular size</span>
+      </div>
+      <strong>$3.00</strong>
+    </div>
+
+    <div class="order-item">
+      <div class="item-quantity">2x</div>
+      <div class="item-info">
+        <strong>Cola</strong>
+        <span>Cold drink</span>
+      </div>
+      <strong>$4.00</strong>
+    </div>
+  </div>
+
+  <div class="order-total">
+    <span>Total paid</span>
+    <strong>$15.50</strong>
+  </div>
+
+  <div class="order-actions">
+    <button class="secondary-button" type="button">Help</button>
+    <button class="primary-button" type="button">Track Delivery</button>
+  </div>
+</div>
+</body>
+</html>
